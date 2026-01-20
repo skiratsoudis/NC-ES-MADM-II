@@ -1,7 +1,5 @@
-# ==========================================================
-# NES-MADM II — EXTRA Case Study (Figures 7–13)
-# Standalone plotting script (NO file I/O, NO ggsave)
-# ==========================================================
+# Figures generated: Figures 4.7-4.13 (as referenced in the manuscript)
+# No file I/O — figures rendered in active graphics device
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -214,3 +212,4 @@ fig13 <- ggplot(glob, aes(x = criterion, y = GlobalSensitivity)) +
   theme_minimal(base_size = 12)
 
 print(attach_legend(fig13))
+
