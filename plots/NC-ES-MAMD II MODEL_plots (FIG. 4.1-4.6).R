@@ -1,5 +1,6 @@
-## NES-MADM II Case Study Plots (X1..X6 + legend under each plot; self-contained) ##
-## No file reads, no file writes; plots appear in the active graphics device. ##
+# Figures generated: Figures 4.1-4.6 (as referenced in the manuscript)
+# No file I/O — figures rendered in active graphics device
+
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -211,3 +212,4 @@ p6 <- ggplot(glob_sens, aes(x = X, y = Impact)) +
        x = NULL, y = "Impact") +
   theme_pub
 print(p6 / make_x_legend_plot() + plot_layout(heights = c(4, 1.2)))
+
