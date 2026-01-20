@@ -1,24 +1,28 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-
 title: "NC-ES-MADM II: Reproducible Computational Platform"
 version: "1.0.0"
-date-released: 2026-01-20
+date-released: "2026-01-20"
+doi: "10.5281/zenodo.18318267"
+url: "https://doi.org/10.5281/zenodo.18318267"
+repository-code: "https://github.com/skiratsoudis/NC-ES-MADM-II"
+license: "MIT"
 
 authors:
-  - family-names: Kiratsoudis
-    given-names: Sideris
-    affiliation: "Department of Physics, Democritus University of Thrace (Kavala, Greece); Hellenic Army"
-    orcid: "https://orcid.org/0000-0002-XXXX-XXXX"
-
-repository-code: "https://github.com/skiratsoudis/NC-ES-MADM-II"
+  - family-names: "Kiratsoudis"
+    given-names: "Sideris"
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Campus St. Lucas, 65404 Kavala, Greece"
+    orcid: "https://orcid.org/0009-0006-0584-2751"
+  - family-names: "Tsiantos"
+    given-names: "Vasilis"
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Campus St. Lucas, 65404 Kavala, Greece"
 
 keywords:
   - decision analytics
   - multi-criteria decision-making
   - entropy weighting
+  - neural consensus
   - supervised calibration
   - robustness diagnostics
-  - logistics benchmarking
+  - operations research
 
-license: MIT
