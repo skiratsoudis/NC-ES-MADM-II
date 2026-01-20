@@ -1,5 +1,6 @@
-# Figure 14 — Training effect on ADI and NMGI across scenarios
-# No file I/O. Produces the figure in the active plotting device.
+# Figures generated: Figure 5.1 (as referenced in the manuscript)
+# No file I/O — figures rendered in active graphics device
+
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -39,3 +40,4 @@ p <- ggplot(df_long, aes(x = Phase, y = Value, group = Scenario)) +
   )
 
 print(p)
+
