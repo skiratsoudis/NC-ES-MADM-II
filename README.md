@@ -3,7 +3,39 @@
 [![R](https://img.shields.io/badge/R-100%25-blue)](https://www.r-project.org/)
 
 
-# NC-ES-MADM-II
+# Calibrated Neural-Consensus Entropy–Synergy Multicriteria Ranking  
+## The NC-ES-MADM II Framework
+
+**Authors**
+
+Sideris Kiratsoudis¹*, Vasilis Tsiantos¹  
+
+¹ Department of Physics, Faculty of Sciences,  
+Democritus University of Thrace,  
+Campus St. Lucas, 65404 Kavala, Greece  
+
+\* Corresponding author
+
+**Corresponding author**
+
+Lt Col (Ordnance) Dr Sideris Kiratsoudis  
+Postdoctoral Researcher, Department of Physics, Faculty of Sciences  
+Democritus University of Thrace, Campus St. Lucas, 65404 Kavala, Greece  
+
+Email: skyratso@physics.duth.gr  
+ORCID: https://orcid.org/0009-0006-0584-2751
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18318267.svg)](https://doi.org/10.5281/zenodo.18318267)
+
+This repository hosts the reproducible computational implementation of the  
+**NC-ES-MADM II (Neural-Consensus Entropy–Synergy Multi-Attribute Decision-Making) framework**,  
+as introduced in the manuscript:
+
+*Calibrated Neural-Consensus Entropy–Synergy Multicriteria Ranking with Robustness Diagnostics.*
+
+The framework integrates entropy-based objective weighting, reliability-aware expert consensus,  
+optional supervised calibration, and robustness diagnostics within a unified decision-support pipeline.
+
 Reproducible computational platform for NC-ES-MADM II: entropy–reliability integrated weighting, supervised calibration, robustness diagnostics, and manuscript figure generation.
 ---
 
@@ -31,3 +63,10 @@ This repository is intended for:
 - Methodological validation and benchmarking
 - Educational and research use in decision analytics
 - Extension to logistics, policy, and socio-economic evaluation contexts
+
+### How to cite
+
+Kiratsoudis, S. (2026). *NC-ES-MADM II: Reproducible Computational Platform* (Version 1.0.0).  
+Zenodo. https://doi.org/10.5281/zenodo.18318267
+
+
