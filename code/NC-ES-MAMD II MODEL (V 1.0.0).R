@@ -1,8 +1,25 @@
-################################################################################
-# app.R — NC-ES–MADM II II Pro (Office look, compact, full deliverables, cancelable compute)
-## Model produced by LT COL Dr. Kiratsoudis Sideris
-## All rights reserved by the author.
-################################################################################
+# ==========================================================
+# NC-ES-MADM II — Core Computational Model
+# Version: v1.0.0
+#
+# Author: Sideris Kiratsoudis
+# Affiliation: Department of Physics, Democritus University of Thrace; Hellenic Army
+#
+# Description:
+# Core implementation of the NC-ES-MADM II framework, including
+# entropy-based objective weighting, reliability-aware subjective
+# aggregation, supervised calibration, and robustness diagnostics.
+#
+# Related manuscript:
+# NC-ES-MADM II (under review)
+#
+# Reproducibility:
+# - Deterministic execution
+# - No random seeds
+# - Outputs fully determined by input datasets
+#
+# License: MIT
+# ==========================================================
 
 # ============ 0) Packages ============
 req_pkgs <- c(
@@ -945,3 +962,4 @@ server <- function(input, output, session){
 }
 
 shinyApp(ui, server)
+
