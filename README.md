@@ -1,3 +1,8 @@
+[![Release](https://img.shields.io/github/v/release/skiratsoudis/NC-ES-MADM-II)](https://github.com/skiratsoudis/NC-ES-MADM-II/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![R](https://img.shields.io/badge/R-100%25-blue)](https://www.r-project.org/)
+
+
 # NC-ES-MADM-II
 Reproducible computational platform for NC-ES-MADM II: entropy–reliability integrated weighting, supervised calibration, robustness diagnostics, and manuscript figure generation.
 ---
